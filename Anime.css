@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header{
+  background-color: rgb(114, 104, 133);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.logo{
+  text-decoration: none;
+  color: rgb(75, 70, 70);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+.navigation a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+.navigation a:hover{
+ color: rgb(76, 197, 197);
+}
+ section{
+  padding: 100px 200px;
+ }
+ section a{
+  color: #fff;
+  font-size: 1.5em;
+  padding-right: 30px;
+ }
+ .main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(https://www.booska-p.com/wp-content/uploads/2022/09/COMBAT_ANIME_1440x825.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.animes a{
+  
+  text-decoration: none;
+  color: rgb(20, 13, 13);
+  font-size: 1em;
+  font-weight: 500;
+  width: 100%;
+  margin-left: 575px;
+ 
+}.logoo{
+  width: 20%;
+  height: 20;
+  margin-right: 100px;
+}
+.box{
+ height: 30px;
+ display: flex;
+ cursor: pointer;
+ background: rgb(236, 243, 243);
+ border-radius: 30px;
+ align-items: center;
+ box-shadow: 0 10px 25px rgba(0,0,0,0.3); 
+ font-size: 18px;
+}
+.box:hover input{
+  width: 400px;
+}
+.box input{
+  width: 0;
+  outline: none;
+  border: 0;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+}
+.box{
+  height: 4vh;
+  display: flexbox;
+  
+}
